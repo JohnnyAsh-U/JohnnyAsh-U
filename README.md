@@ -1,9 +1,11 @@
-# JohnnyAsh
+# Hi, I'm JohnnyAsh
 
-Backend & Security Infrastructure Engineer
+I am a Backend and Infrastructure Engineer focused on building secure, resilient, and highly observable distributed systems. My work bridges the gap between application logic and network engineering, with a strong emphasis on Zero Trust architectures and automated fleet management.
 
-I build secure distributed systems at the intersection of
-backend engineering, networking, and cybersecurity.
+## 🚀 What I'm Building
+
+*   **[Ashrix](https://github.com/JohnnyAsh-U/ashrix-access-backend.git):** A high-performance Zero Trust Network Access (ZTNA) platform written in Go. It features a custom PKI, mutual TLS (mTLS) tunneling, and real-time bidirectional state synchronization using gRPC over QUIC. 
+*   **[Ecclesix](https://github.com/JohnnyAsh-U/Ecclesix):** A scalable church and community management system backed by PostgreSQL and Nginx, designed for frictionless integration and organizational efficiency.
 
 ## What I work with
 
@@ -33,18 +35,13 @@ A Zero Trust application access platform consisting of:
 - WebSocket and TCP forwarding
 - Application-to-application access
 
-[Repository]
+## 🌱 Currently Exploring
+*   Expanding secure access modalities, including browser-based Web SSH terminals and strict database connection auditing.
+*   Advanced Go concurrency primitives and backend performance profiling.
 
-### Ecclesix
-Multi-tenant church management SaaS built with Django.
 
-[Repository]
+## 📫 Let's Connect
+*   **LinkedIn:** [https://www.linkedin.com/in/johnnyashrix/]
+*   **Portfolio / Blog:**[https://www.ashicore.com/]
+*   **Email:** [johnashimedua@outlook.com]
 
-## Current focus
-
-- Network security infrastructure
-- Zero Trust architecture
-- Go networking and concurrency
-- Distributed systems
-- Secure application access
-- Observability

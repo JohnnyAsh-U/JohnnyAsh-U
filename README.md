@@ -1,16 +1,50 @@
-## Hi there 👋
+# JohnnyAsh
 
-<!--
-**JohnnyAsh-U/JohnnyAsh-U** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Backend & Security Infrastructure Engineer
 
-Here are some ideas to get you started:
+I build secure distributed systems at the intersection of
+backend engineering, networking, and cybersecurity.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I work with
+
+- Go — networking, concurrency, high-throughput services
+- Python — FastAPI, Django
+- TypeScript — NestJS, React
+- Networking — TCP/IP, QUIC, TLS, VPNs
+- Security — Zero Trust, identity, authentication, authorization
+- Infrastructure — Linux, containers, observability
+- Databases — PostgreSQL, Redis/Valkey
+- Distributed systems — gRPC, service-to-service communication,
+  connection management, policy synchronization
+
+## Featured Projects
+
+### Ashrix
+Secure application access without VPNs.
+
+A Zero Trust application access platform consisting of:
+- Control Plane
+- Security Gateway
+- Application Connector
+- Identity-aware authorization
+- Policy synchronization
+- QUIC-based application tunnels
+- mTLS service communication
+- WebSocket and TCP forwarding
+- Application-to-application access
+
+[Repository]
+
+### Ecclesix
+Multi-tenant church management SaaS built with Django.
+
+[Repository]
+
+## Current focus
+
+- Network security infrastructure
+- Zero Trust architecture
+- Go networking and concurrency
+- Distributed systems
+- Secure application access
+- Observability

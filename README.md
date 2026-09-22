@@ -4,7 +4,7 @@ I am a Backend and Infrastructure Engineer focused on building secure, resilient
 
 ## 🚀 What I'm Building
 
-*   **[Ashrix](https://github.com/JohnnyAsh-U/ashrix-access-backend.git):** A high-performance Zero Trust Network Access (ZTNA) platform written in Go. It features a custom PKI, mutual TLS (mTLS) tunneling, and real-time bidirectional state synchronization using gRPC over QUIC. 
+*   **[Ashrix](https://github.com/JohnnyAsh-U/ashrix-access-backend.git):** A high-performance Zero Trust Network Access (ZTNA) platform written in Go. It features a custom PKI, mutual TLS (mTLS) tunneling over QUIC, and real-time bidirectional state synchronization using gRPC. 
 *   **[Ecclesix](https://github.com/JohnnyAsh-U/Ecclesix):** A scalable church and community management system backed by PostgreSQL and Nginx, designed for frictionless integration and organizational efficiency.
 
 ## What I work with

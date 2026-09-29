@@ -1,47 +1,156 @@
-# Hi, I'm JohnnyAsh
+# Hi, I'm JohnnyAsh 👋
 
-I am a Backend and Infrastructure Engineer focused on building secure, resilient, and highly observable distributed systems. My work bridges the gap between application logic and network engineering, with a strong emphasis on Zero Trust architectures and automated fleet management.
+I'm a **Backend & Infrastructure Engineer** focused on building secure, resilient, and observable distributed systems.
+
+My work sits at the intersection of **backend engineering, networking, infrastructure, and security**, with a particular interest in Zero Trust architectures, distributed systems, and high-performance Go services.
 
 ## 🚀 What I'm Building
 
-*   **[Ashrix](https://github.com/JohnnyAsh-U/ashrix-access-backend.git):** A high-performance Zero Trust Network Access (ZTNA) platform written in Go. It features a custom PKI, mutual TLS (mTLS) tunneling over QUIC, and real-time bidirectional state synchronization using gRPC. 
-*   **[Ecclesix](https://github.com/JohnnyAsh-U/Ecclesix):** A scalable church and community management system backed by PostgreSQL and Nginx, designed for frictionless integration and organizational efficiency.
+### [Shield Mesh](https://github.com/JohnnyAsh-U/shieldmesh)
 
-## What I work with
+A distributed security decision fabric built around a simple principle:
 
-- Go — networking, concurrency, high-throughput services
-- Python — FastAPI, Django
-- TypeScript — NestJS, React
-- Networking — TCP/IP, QUIC, TLS, VPNs
-- Security — Zero Trust, identity, authentication, authorization
-- Infrastructure — Linux, containers, observability
-- Databases — PostgreSQL, Redis/Valkey
-- Distributed systems — gRPC, service-to-service communication,
-  connection management, policy synchronization
+> **Remote intelligence. Local enforcement.**
 
-## Featured Projects
+Shield Mesh connects remote security intelligence engines to applications through low-latency local enforcement.
 
-### Ashrix
-Secure application access without VPNs.
+It provides:
 
-A Zero Trust application access platform consisting of:
-- Control Plane
-- Security Gateway
-- Application Connector
-- Identity-aware authorization
-- Policy synchronization
-- QUIC-based application tunnels
-- mTLS service communication
-- WebSocket and TCP forwarding
-- Application-to-application access
+* Asynchronous security telemetry with `Observe()`
+* Synchronous local enforcement with `Check()`
+* Versioned security decisions
+* Local decision state independent of the request path
+* NATS + JetStream transport and Custom Transport
+* Decision synchronization and recovery
+* Configurable fail-open / fail-closed behavior
+* A transport abstraction designed for future implementations
+
+The goal is to keep security intelligence processing **off the application request path** while allowing applications to make fast local enforcement decisions.
+
+---
+
+### [Ashrix](https://github.com/JohnnyAsh-U/ashrix-access-backend)
+
+A Zero Trust application access platform written in Go.
+
+Ashrix provides secure application access without exposing application servers directly to the Internet or relying on traditional network-level VPN access.
+
+Key areas include:
+
+* Zero Trust application access
+* Custom PKI
+* mTLS service communication
+* QUIC-based application tunnels
+* gRPC control-plane communication
+* Identity-aware authorization
+* Policy synchronization
+* HTTP, WebSocket, and TCP forwarding
+* Application-to-application access
+
+---
+
+### [Ecclesix](https://github.com/JohnnyAsh-U/Ecclesix)
+
+A multi-tenant church and community management platform backed by PostgreSQL.
+
+Built with a focus on:
+
+* REST APIs
+* PostgreSQL data modeling
+* Role-based access control
+* Financial workflows
+* Media management
+* Observability
+* Docker-based deployment
+* Nginx and TLS
+
+## 🧰 What I Work With
+
+**Languages**
+
+* Go
+* Python
+* TypeScript
+* JavaScript
+
+**Backend**
+
+* Go HTTP services
+* FastAPI
+* Django
+* NestJS
+* REST
+* gRPC
+
+**Networking**
+
+* TCP/IP
+* HTTP/HTTPS
+* QUIC
+* TLS/mTLS
+* DNS
+* VPN and tunneling concepts
+
+**Security**
+
+* Zero Trust
+* Authentication & authorization
+* PKI
+* Identity-aware access
+* Policy distribution
+* Application security
+
+**Infrastructure**
+
+* Linux
+* Docker
+* Nginx
+* CI/CD
+* Observability
+* Production troubleshooting
+
+**Data & Messaging**
+
+* PostgreSQL
+* Redis/Valkey
+* NATS
+* JetStream
+
+**Distributed Systems**
+
+* Concurrency
+* Service-to-service communication
+* Event-driven architectures
+* State synchronization
+* Failure handling
+* High availability
+
+## 🧠 Engineering Interests
+
+I'm particularly interested in problems involving:
+
+* Distributed systems
+* Security infrastructure
+* High-performance networking
+* Zero Trust architectures
+* Local vs. remote state
+* Distributed decision systems
+* Fault tolerance and recovery
+* Observability
+* Go runtime and concurrency
+* Infrastructure automation
 
 ## 🌱 Currently Exploring
-*   Expanding secure access modalities, including browser-based Web SSH terminals and strict database connection auditing.
-*   Advanced Go concurrency primitives and backend performance profiling.
 
+* Distributed security decision systems
+* Advanced Go concurrency and performance profiling
+* Event-driven security architectures
+* Reliable state synchronization
+* High-performance application networking
+* Security enforcement under infrastructure failure
 
 ## 📫 Let's Connect
-*   **LinkedIn:** [https://www.linkedin.com/in/johnnyashrix/]
-*   **Portfolio / Blog:**[https://www.ashicore.com/]
-*   **Email:** [johnashimedua@outlook.com]
 
+* **LinkedIn:** [linkedin.com/in/johnnyashrix](https://www.linkedin.com/in/johnnyashrix/)
+* **Portfolio / Blog:** [ashicore.com](https://www.ashicore.com/)
+* **Email:** [johnashimedua@outlook.com](mailto:johnashimedua@outlook.com)

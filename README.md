@@ -1,8 +1,9 @@
 # Hi, I'm JohnnyAsh 👋
 
-I'm a **Backend & Infrastructure Engineer** focused on building secure, resilient, and observable distributed systems.
+I'm a **Software Engineer** focused on building secure, high-performance systems at the intersection of networking, infrastructure, and distributed systems.
 
-My work sits at the intersection of **backend engineering, networking, infrastructure, and security**, with a particular interest in Zero Trust architectures, distributed systems, and high-performance Go services.
+I work primarily with Go, Python and Linux, with a particular interest in Zero Trust, distributed system, and resilient infrastructure.
+
 
 ## 🚀 What I'm Building
 
